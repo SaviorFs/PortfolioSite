@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import johnGahaganPic from '../assets/images/johngahaganpic.png';
+import johnGahaganPic from '../assets/images/johngahaganpic.jpg';
 import John_Gahagan_Resume from '../assets/John_Gahagan_Resume.pdf';
 import { FaLinkedin, FaGithub, FaEnvelope, FaCode } from 'react-icons/fa';
 
@@ -26,7 +26,7 @@ const About = () => {
     <section id="about" className="text-gray-700 body-font bg-gray-100 py-24 pt-24">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <div className="rounded-full overflow-hidden h-96 w-96 mx-auto shadow-xl">
+          <div className="overflow-hidden h-[26rem] w-[26rem] mx-auto shadow-xl">
             <img className="object-cover object-center h-full w-full" src={johnGahaganPic} alt="John Gahagan" />
           </div>
         </div>
