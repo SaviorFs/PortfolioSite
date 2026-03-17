@@ -50,7 +50,7 @@ const About = () => {
             <a href="https://leetcode.com/JohnGahagan/" target="_blank" rel="noopener noreferrer" className="mr-4 text-gray-600 hover:text-green-600">
               <FaCode size="2em" />
             </a>
-            <a href="https://github.com/saviorfs" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black">
+            <a href="https://github.com/JohnGahagan" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black">
               <FaGithub size="2em" />
             </a>
           </div>
